@@ -1,0 +1,14 @@
+{
+    "name": "andersevenrud/php-signicat-documentservice-v3",
+    "description": "Signicat DocumentService V3 SOAP Library",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Signicat\\DocumentServiceV3_API\\": "./src/"
+        }
+    }
+}
